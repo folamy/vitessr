@@ -24,5 +24,13 @@ module.exports = {
   ],
   build: {
     minify: false
+  },
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.esm-bundler.js',
+      'balm-ui-source': 'balm-ui/src/scripts',
+      'balm-ui-plus-source': 'balm-ui/src/scripts/plus.js',
+      'balm-ui-next-source': 'balm-ui/src/scripts/next.js'
+    }
   }
 }
